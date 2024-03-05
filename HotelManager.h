@@ -10,7 +10,6 @@ using namespace std;
 
 #include "HotelRoom.h"
 #include "HotelBooking.h"
-#include "HotelManager.h"
 
 class HotelManager {
 private:

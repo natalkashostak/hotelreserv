@@ -10,7 +10,6 @@ using namespace std;
 #include <vector>
 
 #include "HotelRoom.h"
-#include "HotelBooking.h"
 #include "HotelManager.h"
 
 class HotelBooking {
