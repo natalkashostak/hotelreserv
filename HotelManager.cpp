@@ -1,8 +1,5 @@
 
 #include <iostream>
-
-#include "HotelRoom.h"
-#include "HotelBooking.h"
 #include "HotelManager.h"
 
 using namespace std;
