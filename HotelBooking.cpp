@@ -1,16 +1,19 @@
 
 #include <iostream>
-
-#include "HotelRoom.h"
 #include "HotelBooking.h"
-#include "HotelManager.h"
 
 using namespace std;
 
-HotelBooking::HotelBooking(conststring& name, int guests)
+HotelBooking::HotelBooking(const string& name, int guests)
         : guestName(name), numGuests(guests) {}
 
 HotelBooking::HotelBooking() : guestName("Unknown"), numGuests(1) {}
+
+HotelBooking::HotelBooking(const HotelBooking& other)
+        : guestName(other.guestName), numGuests(other.numGuests), bookedRooms(other.bookedRooms) {}
+
+HotelBooking::HotelBooking(HotelBooking&& other) noexcept
+        : guestName(move(other.guestName)), numGuests(other.numGuests), bookedRooms(move(other.bookedRooms)) {}
 
 HotelBooking::~HotelBooking() {}
 
