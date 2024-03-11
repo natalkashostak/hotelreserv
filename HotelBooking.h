@@ -1,16 +1,13 @@
 
-#pragma once
-
 #ifndef HOTELBOOKING_H
 #define HOTELBOOKING_H
 
 using namespace std;
 
+#include <iostream>
 #include <string>
 #include <vector>
-
 #include "HotelRoom.h"
-#include "HotelManager.h"
 
 class HotelBooking {
 private:
@@ -21,6 +18,8 @@ private:
 public:
     HotelBooking(const string& name, int guests);
     HotelBooking();
+    HotelBooking(const HotelBooking& other);
+    HotelBooking(HotelBooking&& other) noexcept;
     ~HotelBooking();
 
     string getGuestName() const;
@@ -29,4 +28,4 @@ public:
     void displayBookingInfo() const;
 };
 
-#endif /* HOTELBOOKING_H */
+#endif // HOTELBOOKING_H
