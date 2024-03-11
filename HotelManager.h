@@ -1,14 +1,10 @@
 
-#pragma once
-
-using namespace std;
-
 #ifndef HOTELMANAGER_H
 #define HOTELMANAGER_H
 
-#include <vector>
+using namespace std;
 
-#include "HotelRoom.h"
+#include <vector>
 #include "HotelBooking.h"
 
 class HotelManager {
@@ -23,4 +19,4 @@ public:
     void displayAllBookings() const;
 };
 
-#endif /* HOTELMANAGER_H */
+#endif // HOTELMANAGER_H
