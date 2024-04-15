@@ -1,0 +1,9 @@
+# ninja log v5
+2	534	7344890327734533	CMakeFiles/hotelreserv.dir/main.cpp.obj	414811c354bae433
+1	172	7344906605372564	build.ninja	2490ff8d23681b2c
+5	619	7344890328427209	CMakeFiles/hotelreserv.dir/HotelManager.cpp.obj	b54ae03b8c76016b
+3	504	7344890327425353	CMakeFiles/hotelreserv.dir/HotelRoom.cpp.obj	403b46be1dea3d46
+6	643	7344890328816173	CMakeFiles/hotelreserv.dir/HotelBooking.cpp.obj	c5902247a83516e4
+1	7	0	clean	fa1f7e077cba2515
+643	723	7344890329605935	hotelreserv.exe	3df260e881787d34
+4	483	7344890327215914	CMakeFiles/hotelreserv.dir/SuiteRoom.cpp.obj	5fb9d837adfb2d49
