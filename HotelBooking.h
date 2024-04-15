@@ -2,29 +2,23 @@
 #ifndef HOTELBOOKING_H
 #define HOTELBOOKING_H
 
-using namespace std;
-
-#include <iostream>
-#include <string>
 #include <vector>
-#include "HotelRoom.h"
+#include "Room.h"
+using namespace std;
 
 class HotelBooking {
 private:
     string guestName;
     int numGuests;
-    vector<HotelRoom> bookedRooms;
+    vector<Room*> bookedRooms;
 
 public:
     HotelBooking(const string& name, int guests);
-    HotelBooking();
     HotelBooking(const HotelBooking& other);
     HotelBooking(HotelBooking&& other) noexcept;
     ~HotelBooking();
 
-    string getGuestName() const;
-    int getNumGuests() const;
-    void addRoom(const HotelRoom& room);
+    void addRoom(Room* room);
     void displayBookingInfo() const;
 };
 
