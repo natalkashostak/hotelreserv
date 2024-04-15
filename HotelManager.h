@@ -2,10 +2,9 @@
 #ifndef HOTELMANAGER_H
 #define HOTELMANAGER_H
 
-using namespace std;
-
 #include <vector>
 #include "HotelBooking.h"
+using namespace std;
 
 class HotelManager {
 private:
