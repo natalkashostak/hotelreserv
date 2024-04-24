@@ -22,6 +22,7 @@ public:
 
     virtual Room* clone() const = 0;
     virtual void displayInfo() const = 0;
+    virtual void specialFeature() const = 0;
 };
 
 #endif // ROOM_H

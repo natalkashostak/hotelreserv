@@ -12,10 +12,11 @@ int main() {
     SuiteRoom suite("Presidential Suite", 201, 500.0);
 
     cout << "Room Details:" << endl;
-    standardRoom.displayInfo();
-    doubleRoom.displayInfo();
-    suite.displayInfo();
-    cout << endl;
+    Room* rooms[] = {&standardRoom, &doubleRoom, &suite};
+    for (auto& room : rooms) {
+        room->displayInfo();
+        room->specialFeature();
+    }
 
     HotelBooking booking1("John Doe", 2);
     booking1.addRoom(&standardRoom);
@@ -38,3 +39,4 @@ int main() {
 
     return 0;
 }
+

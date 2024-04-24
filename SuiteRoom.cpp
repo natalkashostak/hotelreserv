@@ -14,3 +14,7 @@ void SuiteRoom::displayInfo() const {
     HotelRoom::displayInfo();
     cout << " (Suite specifics can be added here)" << endl;
 }
+
+void SuiteRoom::specialFeature() const {
+    cout << "Suite has a jacuzzi." << endl;
+}
