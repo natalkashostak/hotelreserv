@@ -79,6 +79,18 @@ build CMakeFiles/hotelreserv.dir/HotelManager.cpp.obj: CXX_COMPILER__hotelreserv
   OBJECT_DIR = CMakeFiles\hotelreserv.dir
   OBJECT_FILE_DIR = CMakeFiles\hotelreserv.dir
 
+build CMakeFiles/hotelreserv.dir/UserManager.cpp.obj: CXX_COMPILER__hotelreserv_unscanned_Debug D$:/Projects/c++/hotelreserv/UserManager.cpp || cmake_object_order_depends_target_hotelreserv
+  DEP_FILE = CMakeFiles\hotelreserv.dir\UserManager.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hotelreserv.dir
+  OBJECT_FILE_DIR = CMakeFiles\hotelreserv.dir
+
+build CMakeFiles/hotelreserv.dir/Menu.cpp.obj: CXX_COMPILER__hotelreserv_unscanned_Debug D$:/Projects/c++/hotelreserv/Menu.cpp || cmake_object_order_depends_target_hotelreserv
+  DEP_FILE = CMakeFiles\hotelreserv.dir\Menu.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\hotelreserv.dir
+  OBJECT_FILE_DIR = CMakeFiles\hotelreserv.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target hotelreserv
@@ -87,7 +99,7 @@ build CMakeFiles/hotelreserv.dir/HotelManager.cpp.obj: CXX_COMPILER__hotelreserv
 #############################################
 # Link the executable hotelreserv.exe
 
-build hotelreserv.exe: CXX_EXECUTABLE_LINKER__hotelreserv_Debug CMakeFiles/hotelreserv.dir/main.cpp.obj CMakeFiles/hotelreserv.dir/HotelRoom.cpp.obj CMakeFiles/hotelreserv.dir/SuiteRoom.cpp.obj CMakeFiles/hotelreserv.dir/HotelBooking.cpp.obj CMakeFiles/hotelreserv.dir/HotelManager.cpp.obj
+build hotelreserv.exe: CXX_EXECUTABLE_LINKER__hotelreserv_Debug CMakeFiles/hotelreserv.dir/main.cpp.obj CMakeFiles/hotelreserv.dir/HotelRoom.cpp.obj CMakeFiles/hotelreserv.dir/SuiteRoom.cpp.obj CMakeFiles/hotelreserv.dir/HotelBooking.cpp.obj CMakeFiles/hotelreserv.dir/HotelManager.cpp.obj CMakeFiles/hotelreserv.dir/UserManager.cpp.obj CMakeFiles/hotelreserv.dir/Menu.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\hotelreserv.dir

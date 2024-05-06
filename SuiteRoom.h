@@ -14,4 +14,3 @@ public:
 };
 
 #endif // SUITEROOM_H
-

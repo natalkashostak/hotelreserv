@@ -10,4 +10,6 @@ add_executable(hotelreserv
         SuiteRoom.cpp
         HotelBooking.cpp
         HotelManager.cpp
+        UserManager.cpp
+        Menu.cpp
 )
